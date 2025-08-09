@@ -5,7 +5,7 @@ import Prelude
 import Effect (Effect)
 import Effect.Console (log)
 import Goos (args, readDir, readTextFile, writeTextFile, fileName)
-import Data.Array (length)
+import Data.Array (length, take)
 import Data.Either (Either(..))
 
 main :: Effect Unit

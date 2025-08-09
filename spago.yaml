@@ -13,10 +13,10 @@ package:
     - yoga-json
     - st
     - http-methods
-    - maps
+    - ordered-collections
     - nullable
     - foldable-traversable
-    - effect-uncurried
+    - functions
   build:
     strict: true
     pedantic_packages: true
