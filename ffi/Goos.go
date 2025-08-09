@@ -16,7 +16,12 @@ func init() {
 		if err != nil {
 			return Apply(left_, err.Error())
 		}
-		return Apply(right_, res)
+		// Convert []fs.DirEntry to []Any for PureScript
+		var result []Any
+		for _, entry := range res {
+			result = append(result, entry)
+		}
+		return Apply(right_, result)
 	}
 
 	exports["fileName"] = func(dirEntry_ Any) Any {
