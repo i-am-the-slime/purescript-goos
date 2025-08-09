@@ -1,0 +1,29 @@
+package:
+  name: goos
+  dependencies:
+    - effect
+    - prelude
+    - either
+    - maybe
+    - arrays
+    - bifunctors
+    - control
+    - exceptions
+    - unsafe-coerce
+    - yoga-json
+    - st
+    - http-methods
+    - maps
+    - nullable
+    - foldable-traversable
+    - effect-uncurried
+  build:
+    strict: true
+    pedantic_packages: true
+
+workspace:
+  package_set:
+    registry: 49.0.0
+  backend:
+    cmd: echo "This package uses purescript-native Go backend"
+    dependencies: []
