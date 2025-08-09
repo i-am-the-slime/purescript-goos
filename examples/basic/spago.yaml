@@ -1,0 +1,23 @@
+package:
+  name: goos-example-basic
+  dependencies:
+    - goos
+    - effect
+    - prelude
+    - console
+    - either
+    - maybe
+    - arrays
+  build:
+    strict: true
+
+workspace:
+  package_set:
+    registry: 49.0.0
+  extra_packages:
+    goos:
+      git: https://github.com/i-am-the-slime/purescript-goos.git
+      ref: v0.1.0
+  backend:
+    cmd: echo "This example uses purescript-native Go backend"
+    dependencies: []
