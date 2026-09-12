@@ -19,11 +19,16 @@ package:
     - functions
   build:
     strict: true
-    pedantic_packages: true
+    pedanticPackages: true
+  publish:
+    version: 0.1.1
+    license: MIT
+    location:
+      githubOwner: i-am-the-slime
+      githubRepo: purescript-goos
 
 workspace:
-  package_set:
-    registry: 49.0.0
+  packageSet:
+    registry: 75.9.1
   backend:
-    cmd: echo "This package uses purescript-native Go backend"
-    dependencies: []
+    cmd: psgo

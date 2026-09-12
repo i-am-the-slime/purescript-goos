@@ -1,2 +1,12 @@
+github.com/dlclark/regexp2 v1.4.0/go.mod h1:2pZnwuY/m+8K6iRw6wQdMtk+rH5tNGR1i55kozfMjCc=
+github.com/fsnotify/fsnotify v1.10.1 h1:b0/UzAf9yR5rhf3RPm9gf3ehBPpf0oZKIjtpKrx59Ho=
+github.com/fsnotify/fsnotify v1.10.1/go.mod h1:TLheqan6HD6GBK6PrDWyDPBaEV8LspOxvPSjC+bVfgo=
+github.com/i-am-the-slime/go-ffi v0.0.1 h1:/ca35UMMC0d50dY7F+4KqJ7opRSqtHyRxBSCBxRcw9Q=
+github.com/i-am-the-slime/go-ffi v0.0.1/go.mod h1:aaNT9UBPtd5yA3/detzQGbizWfX2WoUgfKxSK0daT/0=
+github.com/mattn/go-sqlite3 v1.14.32/go.mod h1:Uh1q+B4BYcTPb+yiD3kU8Ct7aC0hY9fxUwlHK0RXw+Y=
 github.com/purescript-native/go-runtime v0.1.2 h1:vxVmLXojzc6nkP29qMxHmEd6iwolF309yP/FskRY88Y=
 github.com/purescript-native/go-runtime v0.1.2/go.mod h1:Pl7TR9c9Al8GMlY/R2D7joWjlQuTiB9eBN2a9aXd6GQ=
+golang.org/x/sys v0.43.0 h1:Rlag2XtaFTxp19wS8MXlJwTvoh8ArU6ezoyFsMyCTNI=
+golang.org/x/sys v0.43.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
+golang.org/x/term v0.42.0 h1:UiKe+zDFmJobeJ5ggPwOshJIVt6/Ft0rcfrXZDLWAWY=
+golang.org/x/term v0.42.0/go.mod h1:Dq/D+snpsbazcBG5+F9Q1n2rXV8Ma+71xEjTRufARgY=

@@ -1,0 +1,5 @@
+.spago/
+output/
+node_modules/
+.jj/
+.DS_Store
